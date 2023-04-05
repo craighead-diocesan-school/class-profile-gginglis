@@ -32,72 +32,72 @@
     </main>
 
     <footer>
-        &copy G 2023
+        &copy; G 2023
     </footer>
 
-    <style>
-        header {
-            font-family: 'Righteous', cursive;
-            font-size: 4em;
-            color: rgb(255, 255, 255);
-            background-color: #ce2e4f;
-            text-align: center;
-            grid-area: h;
-            padding: 75% 10% 80% 10%;
-        }
-
-        nav {
-            grid-area: n;
-            margin: 1em 3em;
-        }
-
-        a {
-            text-decoration: none;
-            font-family: 'Kumbh Sans', sans-serif;
-            background-color: #1B4079;
-            color: rgb(255, 255, 255);
-            padding: 1%;
-            font-size: 1.4em;
-            font-weight: 400;
-        }
-
-        a:hover {
-            background-color: #0e2a55;
-        }
-
-        body {
-            display: grid;
-            grid:
-                " h    n    n  " 3em " h    m    m  " 15em " f    f    f  " 3em / 3fr 6fr 6fr;
-        }
-
-        main {
-            font-family: 'Kumbh Sans', sans-serif;
-            grid-area: m;
-            margin: 1em 5em 1em 2em;
-            font-size: 1.3em;
-            text-align: justify;
-            font-weight: 400;
-        }
-
-        img {
-            height: 100%;
-            text-align: center;
-            display: block;
-        }
-
-        footer {
-            grid-area: f;
-            background-color: #ce6d8b;
-            margin: 9em 1em 1em 1em;
-            font-family: 'Kumbh Sans', sans-serif;
-            color: white;
-            font-size: 1.3em;
-            padding: 3%;
-            text-align: center;
-            font-weight: 400;
-        }
-    </style>
 </body>
+
+<style>
+    header {
+        font-family: 'Righteous', cursive;
+        font-size: 4em;
+        color: rgb(255, 255, 255);
+        background-color: #ce2e4f;
+        text-align: center;
+        grid-area: h;
+        padding: 75% 10% 80% 10%;
+    }
+
+    nav {
+        grid-area: n;
+        margin: 1em 3em;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Kumbh Sans', sans-serif;
+        background-color: #1B4079;
+        color: rgb(255, 255, 255);
+        padding: 1%;
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+    a:hover {
+        background-color: #0e2a55;
+    }
+
+    body {
+        display: grid;
+        grid:
+            " h    n    n  " 3em " h    m    m  " 22em " f    f    f  " auto / 4fr 6fr 6fr;
+    }
+
+    main {
+        font-family: 'Kumbh Sans', sans-serif;
+        grid-area: m;
+        margin: 1em 5em 1em 2em;
+        font-size: 1.3em;
+        text-align: justify;
+        font-weight: 400;
+    }
+
+    img {
+        height: 15em;
+        display: block;
+    }
+
+    footer {
+        grid-area: f;
+        background-color: #ce6d8b;
+        margin: 9em 1em 1em 1em;
+        font-family: 'Kumbh Sans', sans-serif;
+        color: white;
+        font-size: 1.3em;
+        padding: 3%;
+        text-align: center;
+        font-weight: 400;
+    }
+</style>
 
 </html>

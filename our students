@@ -1,1 +1,148 @@
-our students
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&family=Poiret+One&family=Righteous&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        Our Students
+    </header>
+
+    <nav>
+        <a href="index.html">our school</a>
+        <a href="our class">our class</a>
+        <a href="our students">our students</a>
+    </nav>
+
+    <main>
+
+        <h2>Student Profiles</h2>
+
+        <div class="container">
+            <h3>Ruòxī</h3>
+            <ul> Ruòxī is a boisterous student who likes to get stuck in with practical work. She's worked on:</ul>
+            <li>Electric cars</li>
+            <li>Robotic arms</li>
+            <li>Sports training systems</li>
+            <img src="ruòxī.jpg" alt="Ruòxī">
+        </div>
+
+        <div class="container">
+            <h3>Priya</h3>
+            <ul>Priya loves working with people and visual systems. She's worked on:</ul>
+            <li>Facial recognition software</li>
+            <li>Self-driving systems</li>
+            <li>Animal classification apps</li>
+            <img src="priya.jpg" alt="Priya">
+        </div>
+
+        <div class="container">
+            <h3> Aniyah</h3>
+            <ul> Aniyah is a mathematician through-and-through. She's worked on:</ul>
+            <li>Algorithm classification</li>
+            <li>Prime number factorisation</li>
+            <li>Computer graphics</li>
+            <img src="aniyah.jpg" alt="Aniyah">
+        </div>
+
+        <div class="container">
+            <h3>Lucy</h3>
+            <ul>Lucy loves data and getting everything organised. She's worked on:</ul>
+            <li>Course choice prediction systems</li>
+            <li>Student information systems</li>
+            <li>Long-term extracurricular trends</li>
+            <img src="lucy.jpg" alt="Lucy">
+        </div>
+
+        <div class="container">
+            <h3>Kaiara</h3>
+            <ul>Kaiara is a driven entrepreneur and drives app development forward. She's worked on:</ul>
+            <li>Ecommerce systems</li>
+            <li>Payment handling software</li>
+            <li>Stock management apps</li>
+            <img src="kaiara.jpg" alt="Kaiara">
+        </div>
+    </main>
+
+    <footer>
+        &copy G 2023
+    </footer>
+
+    <style>
+        header {
+            font-family: 'Righteous', cursive;
+            font-size: 4em;
+            color: rgb(255, 255, 255);
+            background-color: #ce2e4f;
+            text-align: center;
+            grid-area: h;
+            padding: 75% 10% 80% 10%;
+        }
+
+        nav {
+            grid-area: n;
+            margin: 1em 3em;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Kumbh Sans', sans-serif;
+            background-color: #1B4079;
+            color: rgb(255, 255, 255);
+            padding: 1%;
+            font-size: 1.4em;
+            font-weight: 400;
+        }
+
+        a:hover {
+            background-color: #0e2a55;
+        }
+
+        body {
+            display: grid;
+            grid:
+                " h    n    n  " auto " h    m    m  " auto " f    f    f  " 3em / 5fr 6fr 6fr;
+        }
+
+        main {
+            font-family: 'Kumbh Sans', sans-serif;
+            grid-area: m;
+            margin: 1em 5em 1em 2em;
+            font-size: 1.3em;
+            text-align: justify;
+            font-weight: 400;
+        }
+
+        img {
+            height: 15em;
+            /* text-align: center; */
+            display: block;
+        }
+
+        footer {
+            grid-area: f;
+            background-color: #ce6d8b;
+            margin: 9em 1em 1em 1em;
+            font-family: 'Kumbh Sans', sans-serif;
+            color: white;
+            font-size: 1.3em;
+            padding: 3%;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</body>
+
+</html>

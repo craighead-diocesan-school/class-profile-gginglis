@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&family=Poiret+One&family=Righteous&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        Our Class
+    </header>
+
+    <nav>
+        <a href="index.html">our school</a>
+        <a href="our class">our class</a>
+        <a href="our students">our students</a>
+    </nav>
+
+    <main>
+        <p>Our class of high-performing digital technology students likes to get stuck into any project that takes their
+            fancy.
+
+
+            The girls are in their final year at secondary school and are all working on personal projects that interest
+            them.</p>
+        <img src="school-inside.jpg" alt="inside of school">
+    </main>
+
+    <footer>
+        &copy G 2023
+    </footer>
+
+    <style>
+        header {
+            font-family: 'Righteous', cursive;
+            font-size: 4em;
+            color: rgb(255, 255, 255);
+            background-color: #ce2e4f;
+            text-align: center;
+            grid-area: h;
+            padding: 75% 10% 80% 10%;
+        }
+
+        nav {
+            grid-area: n;
+            margin: 1em 3em;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Kumbh Sans', sans-serif;
+            background-color: #1B4079;
+            color: rgb(255, 255, 255);
+            padding: 1%;
+            font-size: 1.4em;
+            font-weight: 400;
+        }
+
+        a:hover {
+            background-color: #0e2a55;
+        }
+
+        body {
+            display: grid;
+            grid:
+                " h    n    n  " 3em " h    m    m  " 15em " f    f    f  " 3em / 3fr 6fr 6fr;
+        }
+
+        main {
+            font-family: 'Kumbh Sans', sans-serif;
+            grid-area: m;
+            margin: 1em 5em 1em 2em;
+            font-size: 1.3em;
+            text-align: justify;
+            font-weight: 400;
+        }
+
+        img {
+            height: 100%;
+            text-align: center;
+            display: block;
+        }
+
+        footer {
+            grid-area: f;
+            background-color: #ce6d8b;
+            margin: 9em 1em 1em 1em;
+            font-family: 'Kumbh Sans', sans-serif;
+            color: white;
+            font-size: 1.3em;
+            padding: 3%;
+            text-align: center;
+            font-weight: 400;
+        }
+    </style>
+</body>
+
+</html>
